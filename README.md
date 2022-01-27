@@ -43,7 +43,7 @@ The mean of this lot was 1496.14 adn the p-value was 0.04. In contrast to the pr
 ## Study Design: MechaCar vs Competition
 Many consumers value high gas mileage when it comes to choosing a car to purchase. Because of this, it is important to compare the gas mileage of the MechaCar to its competitors. First, we need to write a null and alternative hypothesis. 
 
-**H0 (Null Hypothesis):** There is *no* statistically significant difference between the gas mileage of MechaCar and its competitors. 
+**H0 (Null Hypothesis):** There is *no* statistically significant difference between the gas mileage of MechaCar and its competitors.    
 **H1 (Alternative Hypothesis):** There *is* a statistically significant difference between the gas mileage of MechaCar and its competitors. 
 
 To test the hypotheses, we would first need to collect MPG data on the competitors. This can be done using a wesbite such as [www.fueleconomy.gov](https://www.fueleconomy.gov/). Once we have our data for MechaCar and its competitors, we can conduct t-tests to determine if MechaCar gas mileage differs significantly from both the population and each individual competitor. 
