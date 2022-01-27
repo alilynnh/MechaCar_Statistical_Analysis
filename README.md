@@ -23,21 +23,27 @@ When we dive deeper and calculate summary statistics for each manufacturing lot 
 <img src="Resources/lot_summary.png" width="50%" height="50%">  
 
 ## T-Tests on Suspension Coils
-A t-test was conducted to determine if the PSI across all of the manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch. The sample mean was 1,498.78 and the p-value was 0.06. This indicates that the PSI across the manufacturing lots is statistically similar to the population mean, and we fail to reject the null hypothesis.   
+A t-test was conducted to determine if the PSI across all of the manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch. The sample mean was 1,498.78 and the p-value was 0.06. This indicates that the PSI mean across the manufacturing lots is statistically similar to the population mean, and we fail to reject the null hypothesis.   
 <img src="Resources/ttest_all.png" width="50%" height="50%">   
 
 After the initial t-test, 3 more were conducted on each manufacturing lot separately. The results of these tests are below. 
 
 ### Lot 1
-The mean of this lot was 1500 and the p-value was 1. This indicates that there is no statistically significant difference from the population mean and we fail to reject the null hypothesis.  
+The mean of this lot was 1500 and the p-value was 1. This indicates that the sample mean is not statistically significant different from the population mean and we fail to reject the null hypothesis.  
 <img src="Resources/ttest_lot1.png" width="50%" height="50%">  
 
 ### Lot 2
-The mean of this lot was 1500.2 and the p-value was 0.61. This indicates that there is no statistically significant difference from the populaltion mean and we fail to reject the null hypothesis.   
+The mean of this lot was 1500.2 and the p-value was 0.61. This indicates that the sample mean is not statistically significant different from the populaltion mean and we fail to reject the null hypothesis.   
 <img src="Resources/ttest_lot2.png" width="50%" height="50%"> 
 
 ### Lot 3
-The mean of this lot was 1496.14 adn the p-value was 0.04. In contrast to the previous two lots, this indicates that there *is* a statistically significant difference from the population mean, and we reject the null hypotheis.  
+The mean of this lot was 1496.14 adn the p-value was 0.04. In contrast to the previous two lots, this indicates that the sample *is* statistically significant different from the population mean, and we reject the null hypotheis.  
 <img src="Resources/ttest_lot3.png" width="50%" height="50%"> 
 
 ## Study Design: MechaCar vs Competition
+Many consumers value high gas mileage when it comes to choosing a car to purchase. Because of this, it is important to compare the gas mileage of the MechaCar to its competitors. First, we need to write a null and alternative hypothesis. 
+
+**H0 (Null Hypothesis):** There is *no* statistically significant difference between the gas mileage of MechaCar and its competitors. 
+**H1 (Alternative Hypothesis):** There *is* a statistically significant difference between the gas mileage of MechaCar and its competitors. 
+
+To test the hypotheses, we would first need to collect MPG data on the competitors. This can be done using a wesbite such as [www.fueleconomy.gov](https://www.fueleconomy.gov/). Once we have our data for MechaCar and its competitors, we can conduct t-tests to determine if MechaCar gas mileage differs significantly from both the population and each individual competitor. 
