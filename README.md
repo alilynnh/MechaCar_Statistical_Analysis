@@ -10,9 +10,10 @@ The current project was conducted for the client AutosRUs, whose newest prototyp
 First, a multiple regression model was created and evaluated to determine how certain variables contributed to the MPG values. The results are below:  
 
 **mpg = (6.267)vehicle_length + (0.0012)vehicle_weight + (0.0688)spoiler_angle + (3.546)ground_clearance + (-3.411)AWD - 104.0**  
+
 ![](Resources/lm1.png)  
 
-According to the results, **vehicle length** and **vehicle ground clearance** provide a non-random amount of vairance to the mpg values. In other words, these two variables are likely to have a significant impact on the mpg of the MechaCar. Because the p-value of the model is lower than 0.05, we can **reject the null hypothesis** that states that the slope is zero. The evidence supports the alternative hypothesis that the slope is not zero. Based on the r-squared value of 0.7149, the model explains about 71% of the variance in mpg. Therefore, we can conclude that this model effectively predicts the mpg of the MechaCar.  
+According to the results, **vehicle length** and **vehicle ground clearance** provide a non-random amount of vairance to the mpg values. In other words, these two variables are likely to have a significant impact on the mpg of the MechaCar. Because the p-value of the model is lower than 0.05, we can **reject the null hypothesis** that states that the slope is zero. The evidence supports the alternative hypothesis that the slope is not zero. Based on the r-squared value of 0.7149, the model explains about 71% of the variance in mpg. Therefore, we can conclude that this model effectively predicts the mpg of the MechaCar prototypes.  
 
 ## Summary Statistics on Suspension Coils
 
